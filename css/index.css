@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "common.css";
+
+/* 头部区域 */
+.head-warp {
+    width: 1080px;
+    margin: 0 auto;
+}
