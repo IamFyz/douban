@@ -4,5 +4,99 @@
 /* 头部区域 */
 .head-warp {
     width: 1080px;
-    margin: 0 auto;
+    margin: 30px auto 25px;
+}
+.head-warp .logo {
+    width: 160px;
+    height: 34px;
+    margin-right: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.head-warp .logo a {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    background: url(../img/logo_db.png) center/100% no-repeat;
+    padding-top: 34px;
+}
+.head-warp .search {
+    width: 270px;
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+}
+.head-warp .search input{
+    width: 270px;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+.head-warp .search input:focus{
+    outline: none;
+}
+.head-warp .search button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    color: #c3c3c3;
+}
+.head-warp .menu-nav {
+    float: right;
+    margin-top: 6px;
+}
+.head-warp .menu-nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+.head-warp .menu-nav ul li a{
+    display: inline-block;
+    width: 42px;
+    height: 20px;
+    line-height: 10em;
+    overflow: hidden;
+    background-image: url(../img/nav_logo.png);
+    background-repeat: no-repeat;
+    background-size: 463px 20px;
+}
+.menu-book {
+    background-position: 0 0;
+}
+.menu-movie {
+    background-position: -60px 0;
+}
+.menu-music {
+    background-position: -120px 0;
+}
+.menu-group {
+    background-position: -180px 0;
+}
+.menu-fm {
+    background-position: -240px 0;
+}
+.menu-city {
+    background-position: -300px 0;
+}
+.head-warp .menu-nav ul li a.menu-read {
+    background-image: url(https://img3.doubanio.com/f/sns/f3ba00ef46f185989b70ac6841d9f4d67b6e3a25/pics/sns/anony_home/ic_read_home_nav.png);
+    background-position: 0 0;
+    background-size: 100%;
+}
+.head-warp .menu-nav ul li a.menu-time {
+    background-image: url(https://img3.doubanio.com/f/sns/b474dd402e4293943146a4789de3dae88ec96636/pics/sns/anony_home/ic_shijian_home_nav.png);
+    background-position: 0 -2px;
+    background-size: 100%;
+}
+.menu-doupin {
+    background-position: -422px 0;
 }
